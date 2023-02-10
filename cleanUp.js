@@ -66,10 +66,23 @@ Reason for action 2: To follow conventions and best practices.
 
 
 //  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
+function getAvg(num1, num2) {
+  var sum = num1 + num2;
+  var avg = sum / 2;
+  return avg;
+}
 
-return avg
-  }
+getAvg(1, 8);
+
+/* 
+Actions: 
+1. Change the function name from "average" to a name that starts with a verb, "getAvg". 
+2. Move opening curly bracket to the same line as the function statement, and move the closing curly bracket to 
+the beginning of it's line. 
+3. Use tab to nest all lines of the code block inside the function, remove the blank line, and add a semicolon 
+at the end of the last line of the code block. 
+4. Write code to cal; the function. 
+
+Reason for actions 1 - 3: To increase reader empathy and follow conventions / best practices. 
+Reason for action 4: To instruct the interpreter to carry out the instructions in the function. 
+*/
