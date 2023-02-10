@@ -40,14 +40,24 @@ console.log(`5 squared is ${getSqr(5)}, and the square root of 25 is ${getSqrt(2
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
-// checkStock(4, "Coffee");
-// // => "Coffee is stocked"
+function checkStock(quantity, item) {
+    if (!quantity) {
+        return `${item} - OUT of stock!`;
+    } else if (quantity < 4) {
+        return `${item} - running LOW`;
+    } else {
+        return `${item} is stocked`
+    }
+}
 
-// checkStock(3, "Tortillas");
-// // => "Tortillas - running LOW"
+checkStock(4, "Coffee");
+// => "Coffee is stocked"
 
-// checkStock(0, "Cheese");
-// // => "Cheese - OUT of stock!"
+checkStock(3, "Tortillas");
+// => "Tortillas - running LOW"
 
-// checkStock(1, "Salsa");
-// // => "Salsa - running LOW"
+checkStock(0, "Cheese");
+// => "Cheese - OUT of stock!"
+
+checkStock(1, "Salsa");
+// => "Salsa - running LOW"
