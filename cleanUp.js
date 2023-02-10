@@ -42,15 +42,27 @@ Reason for action 2: Declaring a variable in a function and then returning that 
 unless the variable will serve a later purpose within the function, which it currently does not. 
 */
 
+
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto() {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");    
+}
 
 makeFreshPesto();
+
+/* 
+Actions: 
+1. Fix the typo, changing "func" to "function".
+2. Add a space between the parentheses and the opening curly bracket in the function, and move the closing curly 
+bracket to a new line. 
+
+Reason for action 1: We will receive a syntax error message if the typo is not fixed. 
+Reason for action 2: To follow conventions and best practices. 
+*/
 
 
 //  EX 4:
