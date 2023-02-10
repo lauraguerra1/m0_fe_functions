@@ -11,7 +11,11 @@ function greeting() {
 console.log(greeting());
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
+function customGreeting(name) {
+    return `Welcome to the website, ${name}!`;
+}
 
+console.log(customGreeting("Laura")); 
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
