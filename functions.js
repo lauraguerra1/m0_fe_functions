@@ -4,7 +4,11 @@
 // Use console.log() to see the return value in the console.
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
+function greeting() {
+    return "Welcome to the website!";
+}
 
+console.log(greeting());
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
@@ -19,14 +23,14 @@
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
-checkStock(4, "Coffee");
-// => "Coffee is stocked"
+// checkStock(4, "Coffee");
+// // => "Coffee is stocked"
 
-checkStock(3, "Tortillas");
-// => "Tortillas - running LOW"
+// checkStock(3, "Tortillas");
+// // => "Tortillas - running LOW"
 
-checkStock(0, "Cheese");
-// => "Cheese - OUT of stock!"
+// checkStock(0, "Cheese");
+// // => "Cheese - OUT of stock!"
 
-checkStock(1, "Salsa");
-// => "Salsa - running LOW"
+// checkStock(1, "Salsa");
+// // => "Salsa - running LOW"
