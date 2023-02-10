@@ -8,10 +8,20 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askForName() { 
+  console.log("Hello, what is your name?"); 
+}
 
-askForName()
+askForName();
 
+/* 
+Actions: 
+1. Move the code block to a new line and add a semicolon at the end of the line.
+2. Move the closing curly bracket to a new line. 
+3. Add a semicolon after calling the function. 
+
+Reason for all actions: To follow conventions and best practices. 
+*/
 
 // EX 2:
 function addThreeNums(first, second, third) {
