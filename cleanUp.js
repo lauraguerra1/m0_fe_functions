@@ -25,13 +25,22 @@ Reason for all actions: To follow conventions and best practices.
 
 // EX 2:
 function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
+  return first + second + third;
+}
 
 addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
 
+/* 
+Actions: 
+1. Use tab to nest the code block inside the function, and at a semicolon at the end of the line.
+2. Replace "var sum =" with the return keyword.
+3. Move the closing curly bracket to the beginning of the line. 
+
+Reason for actions 1 & 3: To follow conventions and best practices. 
+Reason for action 2: Declaring a variable in a function and then returning that variable is repetetive, 
+unless the variable will serve a later purpose within the function, which it currently does not. 
+*/
 
 // EX 3:
 func makeFreshPesto(){
