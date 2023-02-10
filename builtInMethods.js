@@ -64,3 +64,24 @@ console.log(school.includes("Software"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+// The splice() method modifies elements in an array. It can be used to insert elements, remove them, or exchange 
+// them with a different element. The first parameter of the splice method tells the program at which index position 
+// to alter, the second parameter tells it how many elements to delete, and the last parameter tells it what to add. 
+// The argument 3 is being passed in at the first parameter, which tells the program to modify the elements starting 
+// at index position three. The argument 1 is being passed in at the second parameter, telling the program to remove 
+// 1 element. The argument "Greg" is being passed in at the third parameter, and it is the new element that will replace 
+// the previous element in index position 3. 
+// The console.log() statement prints the return value of the splice() method to the console.
+// The expected return value is [ 'Miranda', Maddy', 'Melissa', 'Greg' ].
+var friends = ["Miranada","Maddy","Melissa","Heather"];
+friends.splice(3, 1, "Greg");
+console.log(friends);
+
+// The unshift() method adds an element to the beginning of the array. The argument "Cadillac" is being passed in and 
+// will be added to the array at index position 0.
+// The console.log() statement prints the return value of the unshift() method to the console. 
+// The expected return value is [ 'Cadillac', 'Mercedes', 'BMW', 'Jeep', 'Audi' ].
+var cars = ["Mercedes","BMW","Jeep","Audi"];
+cars.unshift("Cadillac");
+console.log(cars);
