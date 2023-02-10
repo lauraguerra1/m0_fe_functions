@@ -10,13 +10,21 @@
 
 
 "Hello World".includes("Hello");
+// The includes() method is called on the string "Hello World" while pasing the argument "Hello"
+// includes("Hello") asks whether the String includes  "Hello".
+// It is expected to return a Boolean value (true) since the String does include "Hello".
 
 
 "Hello World".endsWith("Hello");
+// The endsWith() method is called on the string "Hello World" while pasing the argument "Hello"
+// endsWith("Hello") asks whether the String ends with "Hello".
+// It is expected to return a Boolean value (false) since the String does not end with "Hello".
 
 
 "Hello World".endsWith("rld");
-
+// The endsWith() method is called on the string "Hello World" while pasing the argument "rld"
+// endsWith("rld") asks whether the String ends with "rld".
+// It is expected to return a Boolean value (true) since the String does end with "rld".
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
