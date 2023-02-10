@@ -27,6 +27,7 @@
 // It is expected to return a Boolean value (true) since the String does end with "rld".
 
 
+
 // SECTION 2: Calling methods on variables assigned to strings.
 // Declare 2 variables assigned to strings.
 // Call a different built-in JavaScript method on each of your variables. 
@@ -40,6 +41,21 @@
 // The console.log() statements prints the return value of the startsWith() method (true) to the console.
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
+
+
+// The toUpperCase() method is called on the lastName variable, which stores the string object "Guerra". 
+// The toUpperCase() method returns the string spelled with all upper case letters.
+// The console.log() statements prints the return value of the toUpperCase() method ("GUERRA") to the console.
+var lastName = "Guerra"; 
+console.log(lastName.toUpperCase());
+
+
+// The includes() method is called on the school variable, which stores the string object "Turing School of Software & Design". 
+// The includes() method returns true if the data in the school variable contains the argument passed in.
+// In this example, the return value is true, because "Turing School of Software & Design" includes "Software".
+// The console.log() statements prints the return value of the includes() method (true) to the console.
+var school = "Turing School of Software & Design"
+console.log(school.includes("Software"));
 
 
 
