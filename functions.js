@@ -34,15 +34,17 @@ console.log(greetFullName2);
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
-function getSqr(num) {
+function square(num) {
     return num*num;
 }
 
-function getSqrt(num) {
+function sqrt(num) {
     return Math.sqrt(num);
 }
 
-console.log(`5 squared is ${getSqr(5)}, and the square root of 25 is ${getSqrt(25)}.`)
+var tenSqr = square(10);
+var hundredSqrt = sqrt(100);
+console.log(`10 squared is ${tenSqr}, and the square root of 100 is ${hundredSqrt}.`);
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
