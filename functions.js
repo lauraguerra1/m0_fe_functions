@@ -51,11 +51,11 @@ console.log(`10 squared is ${tenSqr}, and the square root of 100 is ${hundredSqr
 
 function checkStock(quantity, item) {
     if (!quantity) {
-        return `${item} - OUT of stock!`;
+        console.log(`${item} - OUT of stock!`);
     } else if (quantity < 4) {
-        return `${item} - running LOW`;
+        console.log(`${item} - running LOW`);
     } else {
-        return `${item} is stocked`
+        console.log(`${item} is stocked`);
     }
 }
 
